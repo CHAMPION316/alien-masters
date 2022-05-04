@@ -122,7 +122,7 @@ The game can be quit by clicking on the "X" button on top of the window or by lo
 
 ## 4 Testing
 
--   The testing process was done on a separate file [TESING.md](TESTING.md)
+-   The testing process was done on a separate file [TESTING.md](TESTING.md)
 
 ## 5 Improvements
 - Program the game so that losing health also count towards lives lost and reset of player position.
