@@ -160,14 +160,16 @@ Due to this being a pygame project it will not run on heroku. I spoke with stude
 
 ## 7 Credits
 
-### 7.1 Content
- 
 - I would like to thank Tim from [_Tech with Tim_](https://www.youtube.com/c/TechWithTim) from YouTube because with the short time that I had after returning from an isolated ship with no internet that required me to postpone my course. I needed guidance and understanding for a language I was not able to practice since September of 2021. It wasn't until now about 1.5 weeks ago that I was finally home and able to begin this project. I will credit Tim with the code I have written which is also open for personal use and learning with a few adjustments as to how I prefer the game to be played and with the creation of my own PNG images.  
+
+- I would like to thank my amazing wife Emelie for always being there through the good and the bad when it comes to learning programming.
+
+- Previous mentor George who at the inception of this project was my current mentor.
 
 ### 8 Acknowledgments
 
 - The [Code Institute](https://codeinstitute.net/) team.
 - [Stackoverflow](https://stackoverflow.com/) for having answers when I need them.
 - [Google](https://google.com/) for being the best search engine in this day and age.
-- My wife Emelie for being encouraging while I stressed getting this done.
+- Student Care
 - Tim from 'Tech with Tim' as I mentioned above.
