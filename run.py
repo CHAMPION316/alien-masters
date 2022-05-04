@@ -110,13 +110,11 @@ class Ship:
             self.lasers.append(laser)
             self.cool_down_counter = 1
 
-
     def get_width(self):
         """
         Returns value of ship width
         """
         return self.ship_img.get_width()
-
 
     def get_height(self):
         """
@@ -154,7 +152,6 @@ class Player(Ship):
         super().draw(window)
         self.health_life(window)
 
-
     def health_life(self, window):
         """
         Player's health bar
@@ -186,7 +183,6 @@ class Enemy(Ship):
         super().__init__(x, y, health)
         self.ship_img, self.laser_img = self.ENEMY_COLORS[color]
         self.mask = pygame.mask.from_surface(self.ship_img)
-
 
     def movement(self, speed):
         """
