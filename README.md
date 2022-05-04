@@ -31,9 +31,11 @@ The background is presented with the same image that you see in the main menu of
 ### 1.4 Wireframes
 I used OneNote for the rough draft ideas to draw the ships, and background of this project. However Photoshop was where I created the acutal png images that you see in the game. 
 
-- [Enemy Drawing]()
-- [Player Drawing]()
-- [Background]()
+- [Enemy Drawing](docs/img/enemy_roughdraft.jpg)
+- [Enemy Final](docs/img/space_ship_creation.jpg)
+- [Player Drawing](docs/img/user_ship.jpg)
+- [Player Final](assets/raider_raptor.png)
+
 
 
 ## 2 Gameplay
@@ -150,6 +152,11 @@ To clone this project from GitHub:
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
+
+**Update on deployment**
+
+Due to this being a pygame project it will not run on heroku. I spoke with student care and it was concluded that I will upload this project on replit instead.
+- [replit](https://replit.com/) 
 
 ## 7 Credits
 
