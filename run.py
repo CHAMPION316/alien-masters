@@ -71,15 +71,18 @@ class Ship:
         self.lasers = []
         self.cool_down_counter = 0
 
-    # Method that draws size of player on the window
-    # (temporary design *rectangle*)
     def draw(self, window):
+        """
+        Method that draws size of player on the window
+        """
         window.blit(self.ship_img, (self.x, self.y,))
         for laser in self.lasers:
             laser.draw(window)
 
-    # Method for different scenarios upon firing lasers
     def move_lasers(self, speed, obj):
+        """
+        Method for different scenarios upon firing lasers
+        """
         self.cooldown()
         for laser in self.lasers:
             laser.movement(speed)
@@ -98,19 +101,27 @@ class Ship:
         elif self.cool_down_counter > 0:
             self.cool_down_counter += 1
 
-    # Allows the succession of when lasers can be fired
     def shoot(self):
+        """
+        Allows the succession of when lasers can be fired
+        """
         if self.cool_down_counter == 0:
             laser = Laser(self.x, self.y, self.laser_img)
             self.lasers.append(laser)
             self.cool_down_counter = 1
 
-    # Returns value of ship width
+
     def get_width(self):
+        """
+        Returns value of ship width
+        """
         return self.ship_img.get_width()
 
-    # Returns value of ship height
+
     def get_height(self):
+        """
+        Returns value of ship height
+        """
         return self.ship_img.get_height()
 
 
@@ -143,8 +154,11 @@ class Player(Ship):
         super().draw(window)
         self.health_life(window)
 
-    # Player's health bar
+
     def health_life(self, window):
+        """
+        Player's health bar
+        """
         pygame.draw.rect(window, (255, 0, 0),
                          (self.x, self.y + self.ship_img.get_height() + 10,
                           self.ship_img.get_width(), 10)
@@ -161,7 +175,7 @@ class Enemy(Ship):
     Enemy ship class and their attributes
     """
 
-    # Dictionary for colorse of enemy ships
+    # Dictionary for colors of enemy ships
     ENEMY_COLORS = {
                    "blue": (BLUE_SPACE_SHIP, BLUE_LASER),
                    "green": (GREEN_SPACE_SHIP, GREEN_LASER),
@@ -173,8 +187,11 @@ class Enemy(Ship):
         self.ship_img, self.laser_img = self.ENEMY_COLORS[color]
         self.mask = pygame.mask.from_surface(self.ship_img)
 
-    # Enemy movement
+
     def movement(self, speed):
+        """
+        Enemey movement
+        """
         self.y += speed
 
     def shoot(self):
