@@ -1,6 +1,9 @@
-import pygame
+"""
+Required imports for game to run
+"""
 import os
 import random
+import pygame
 pygame.font.init()
 
 # Initialize a window or screen for display
@@ -281,7 +284,7 @@ def main():
         if len(enemies) == 0:
             level += 1
             wave_length += 3
-            for i in range(wave_length):
+            for _ in range(wave_length):
                 enemy = Enemy(random.randrange(50, WIDTH - 100),
                               random.randrange(-1300, -100),
                               random.choice(["blue", "green", "red"]))
