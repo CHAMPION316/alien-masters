@@ -28,11 +28,12 @@ Upon loading the game you will be presented with a very simplistic main menu. Yo
 ### 1.3 Style
 The background is presented with the same image that you see in the main menu of the game which is the background of where the game takes place. I chose a font that would fit an alien invasion theme and came to the conclusion that [_**Showcard Gothic**_](readme-files/font-style.jpg) was the best option visually.
 
-### 1.4 Wirerames
-I used OneNote to draw the ships, and background of this project.
-- [Enemy Drawing](wireframes/enemy-drawing.jpg)
-- [Player Drawing](wireframes/player-drawing.jpg)
-- [Background](wireframes/bg-drawing.jpg)
+### 1.4 Wireframes
+I used OneNote for the rough draft ideas to draw the ships, and background of this project. However Photoshop was where I created the acutal png images that you see in the game. 
+
+- [Enemy Drawing]()
+- [Player Drawing]()
+- [Background]()
 
 
 ## 2 Gameplay
